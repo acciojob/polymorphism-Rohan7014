@@ -1,15 +1,15 @@
 package com.driver;
 public class Main {
-    static class Product{
-        public int product(int x, int y) {
+     static class Product{
+        public static int product(int x, int y) {
             int i= x+y;
             return i;
         }
-        public int product(int x, int y, int z) {
+        public static int product(int x, int y, int z) {
             int i=x+y+z;
             return i;
         }
-        public double product(double x, double y) {
+        public static double product(double x, double y) {
             Double d=x+y;
             return d;
         }
